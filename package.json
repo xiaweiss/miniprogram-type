@@ -1,6 +1,6 @@
 {
   "name": "miniprogram-type",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "author": "xiaweiss",
   "description": "Type definitions for Wechat Mini Program in TypeScript",
   "homepage": "https://github.com/xiaweiss/vite-plugin-ali-oss",
