@@ -8206,6 +8206,10 @@ wx.getSetting({
          *
          * 是否已打开调试。可通过右上角菜单或 [wx.setEnableDebug](https://developers.weixin.qq.com/miniprogram/dev/api/base/debug/wx.setEnableDebug.html) 打开调试。 */
         enableDebug: boolean
+        /**
+         * 运行环境（仅企业微信有值 wxwork）
+         */
+        environment?: 'wxwork'
         /** 需要基础库： `1.5.0`
          *
          * 用户字体大小（单位px）。以微信客户端「我-设置-通用-字体大小」中的设置为准 */
