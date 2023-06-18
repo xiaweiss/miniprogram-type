@@ -7480,6 +7480,10 @@ wx.createSelectorQuery()
         windowHeight: number
         /** 变化后的窗口宽度，单位 px */
         windowWidth: number
+        /** 屏幕高度，单位px */
+        screenHeight: number
+        /** 屏幕宽度，单位px */
+        screenWidth: number
     }
     /** 当前运行环境对于 [Skyline 渲染引擎](https://developers.weixin.qq.com/miniprogram/dev/framework/runtime/skyline/introduction.html) 的支持情况 */
     interface SkylineInfo {
@@ -8202,6 +8206,10 @@ wx.getSetting({
          *
          * 是否已打开调试。可通过右上角菜单或 [wx.setEnableDebug](https://developers.weixin.qq.com/miniprogram/dev/api/base/debug/wx.setEnableDebug.html) 打开调试。 */
         enableDebug: boolean
+        /**
+         * 运行环境（仅企业微信有值 wxwork）
+         */
+        environment?: 'wxwork'
         /** 需要基础库： `1.5.0`
          *
          * 用户字体大小（单位px）。以微信客户端「我-设置-通用-字体大小」中的设置为准 */
