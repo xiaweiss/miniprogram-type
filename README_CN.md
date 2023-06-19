@@ -1,5 +1,6 @@
 微信小程序类型文件
 ======
+[![npm](https://img.shields.io/npm/v/miniprogram-type)](https://www.npmjs.com/package/miniprogram-type)
 ![license](https://img.shields.io/npm/l/miniprogram-type)
 ![downloads](https://img.shields.io/npm/dt/miniprogram-type)
 
