@@ -1,16 +1,16 @@
 {
   "name": "miniprogram-type",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "author": "xiaweiss",
   "description": "Type definitions for Wechat Mini Program in TypeScript",
-  "homepage": "https://github.com/xiaweiss/vite-plugin-ali-oss",
-  "repository": "https://github.com/xiaweiss/vite-plugin-ali-oss",
+  "homepage": "https://github.com/xiaweiss/miniprogram-type",
+  "repository": "https://github.com/xiaweiss/miniprogram-type",
   "license": "MIT",
   "main": "./index.d.ts",
   "types": "./index.d.ts",
   "scripts": {
-    "test": "tsd",
-    "changelog": "conventional-changelog -i CHANGELOG.md -s"
+    "changelog": "conventional-changelog -i CHANGELOG.md -s",
+    "test": "tsd"
   },
   "devDependencies": {
     "conventional-changelog-cli": "^3.0.0",
