@@ -4680,6 +4680,14 @@ ctx.draw()
       /** 错误码 */
       errno: string
   }
+  interface Err {
+    /** 错误信息 */
+    errMsg: string
+    /** 需要基础库： `2.24.0`
+     *
+     * errno 错误码，错误码的详细说明参考 [Errno错误码](https://developers.weixin.qq.com/miniprogram/dev/framework/usability/PublicErrno.html) */
+    errno: number
+  }
   interface ExecuteVisualLayerCommandOption {
       /** 图层指令 */
       command: string
