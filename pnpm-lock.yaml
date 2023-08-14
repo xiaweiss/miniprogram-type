@@ -4,16 +4,29 @@ settings:
   autoInstallPeers: true
   excludeLinksFromLockfile: false
 
-devDependencies:
-  conventional-changelog-cli:
-    specifier: ^3.0.0
-    version: 3.0.0
-  tsd:
-    specifier: ^0.28.1
-    version: 0.28.1
-  typescript:
-    specifier: ^5.1.3
-    version: 5.1.3
+importers:
+
+  .:
+    devDependencies:
+      conventional-changelog-cli:
+        specifier: ^3.0.0
+        version: 3.0.0
+      tsd:
+        specifier: ^0.28.1
+        version: 0.28.1
+      typescript:
+        specifier: ^5.1.3
+        version: 5.1.3
+
+  example:
+    dependencies:
+      mitt:
+        specifier: ^3.0.1
+        version: 3.0.1
+    devDependencies:
+      miniprogram-type:
+        specifier: workspace:*
+        version: link:..
 
 packages:
 
@@ -856,6 +869,10 @@ packages:
   /minimist@1.2.8:
     resolution: {integrity: sha512-2yyAR8qBkN3YuheJanUpWC5U3bb5osDywNB8RzDVlDwDHbocAJveqqj1u8+SVD7jkWT4yvsHCpWqqWqAxb0zCA==}
     dev: true
+
+  /mitt@3.0.1:
+    resolution: {integrity: sha512-vKivATfr97l2/QBCYAkXYDbrIWPM2IIKEl7YPhjCvKlG3kE2gm+uBo6nEXK3M5/Ffh/FLpKExzOQ3JJoJGFKBw==}
+    dev: false
 
   /modify-values@1.0.1:
     resolution: {integrity: sha512-xV2bxeN6F7oYjZWTe/YPAy6MN2M+sL4u/Rlm2AHCIVGfo2p1yGmBHQ6vHehl4bRTZBdHu3TSkWdYgkwpYzAGSw==}

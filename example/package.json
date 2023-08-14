@@ -1,0 +1,14 @@
+{
+  "name": "miniprogram-type-example",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "lint": "tsc --noEmit"
+  },
+  "dependencies": {
+    "mitt": "^3.0.1"
+  },
+  "devDependencies": {
+    "miniprogram-type": "workspace:*"
+  }
+}

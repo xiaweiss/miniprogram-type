@@ -1,4 +1,5 @@
 .github
-/test
+/example
 /node_modules
+/test
 tsconfig.json
