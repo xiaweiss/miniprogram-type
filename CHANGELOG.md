@@ -1,3 +1,9 @@
+## <small>1.0.3 (2023-08-14)</small>
+
+* update: miniprogram-api-typings 3.11.0 ([9f484fc](https://github.com/xiaweiss/miniprogram-type/commit/9f484fc))
+* chore: 添加示例项目 ([22ba991](https://github.com/xiaweiss/miniprogram-type/commit/22ba991))
+* fix: #3 [api] 3.11.0 版本 WechatMiniprogram.Err 丢失了 ([a5d54b9](https://github.com/xiaweiss/miniprogram-type/commit/a5d54b9)), closes [#3](https://github.com/xiaweiss/miniprogram-type/issues/3)
+
 ## <small>1.0.2 (2023-06-19)</small>
 
 * fix: update readme ([57b4f0f](https://github.com/xiaweiss/miniprogram-type/commit/57b4f0f))
