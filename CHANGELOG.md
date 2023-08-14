@@ -1,3 +1,7 @@
+## <small>1.0.4 (2023-08-14)</small>
+
+* fix: #4 this.renderer 缺乏类型定义 ([7922d82](https://github.com/xiaweiss/miniprogram-type/commit/7922d82)), closes [#4](https://github.com/xiaweiss/miniprogram-type/issues/4)
+
 ## <small>1.0.3 (2023-08-14)</small>
 
 * update: miniprogram-api-typings 3.11.0 ([9f484fc](https://github.com/xiaweiss/miniprogram-type/commit/9f484fc))

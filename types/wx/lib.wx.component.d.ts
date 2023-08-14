@@ -164,6 +164,8 @@ declare namespace WechatMiniprogram.Component {
         id: string
         /** 节点dataset */
         dataset: Record<string, string>
+        /** 渲染引擎 */
+        renderer: 'webview' | 'skyline'
     }
 
     interface InstanceMethods<D extends DataOption> {

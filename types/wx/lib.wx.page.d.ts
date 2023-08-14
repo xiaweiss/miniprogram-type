@@ -153,6 +153,8 @@ declare namespace WechatMiniprogram.Page {
 
         /** 打开当前页面路径中的参数 */
         options: Record<string, string | undefined>
+        /** 渲染引擎 */
+        renderer: 'webview' | 'skyline'
     }
 
     type DataOption = Record<string, any>
