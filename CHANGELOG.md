@@ -1,3 +1,7 @@
+## <small>1.0.5 (2024-01-10)</small>
+
+* feat: 增加组件自定义生命周期 - 登录后 ([c0e98ae](https://github.com/xiaweiss/miniprogram-type/commit/c0e98ae))
+
 ## <small>1.0.4 (2023-08-14)</small>
 
 * fix: #4 this.renderer 缺乏类型定义 ([7922d82](https://github.com/xiaweiss/miniprogram-type/commit/7922d82)), closes [#4](https://github.com/xiaweiss/miniprogram-type/issues/4)
