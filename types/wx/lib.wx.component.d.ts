@@ -366,6 +366,15 @@ declare namespace WechatMiniprogram.Component {
          * 所在页面尺寸变化时执行
          */
         resize(size: Page.IResizeOption): void
+
+        /**
+         * 自定义生命周期 - 登录后
+         * Record<string, string | undefined>
+         */
+        login (
+          /** 打开当前页面路径中的参数 */
+          options: Record<string, string | undefined>
+        ): void
     }
 
     type DefinitionFilter = <T extends TrivialOption>(
